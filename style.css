@@ -4,4 +4,32 @@
 
 p.spacing {
     line-height: 1.8;
+}
+
+tr:nth-child(even) {
+    background-color: #ededed;
+}
+
+.data {
+    table-layout: fixed;
+    width: 100%;
+    white-space: nowrap;
   }
+
+.data td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.data th {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media (min-width:767px) {
+    .smallhr {
+        display: none;
+    }
+}
