@@ -57,24 +57,32 @@
     </div>
   </nav>
 
-
-    <div class="container-fluid p-5">
+    <div class="container-fluid p-4">
       <section class="row d-flex justify-content-between">
-        <section class="col-md-7 white p-5">
-            <h4 style="color:#2c3e50;"><b>Summary: Latitude vs. X</b></h4>
-            <hr class="my-4">
-            <img src="Resources/Images/latitude_vs_max_temp.png" alt="Latitude vs. Max Temp" class="float-left" width="346" height="230">
-            <p class="spacing" >The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-            <p class="spacing" >After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latutude. Factors we looked at included temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+        <section class="col-md-7">
+            <div class="card">
+                <div class="card-body">
+                    <h4 style="color:#2c3e50;"><b>Summary: Latitude vs. X</b></h4>
+                    <hr class="my-4">
+                    <img src="Resources/Images/latitude_vs_max_temp.png" alt="Latitude vs. Max Temp" class="float-left" style="padding-bottom:25px;" width="70%">
+                    <p class="spacing" >The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+                    <p class="spacing" >After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latutude. Factors we looked at included temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+                </div>
+            </div>
         </section>
+        
         <!-- <section class="col-md-1 np-5"></section> -->
-        <section class="col-md-4 white p-4">
-            <h5 style="color:#2c3e50;">Visualizations</h5>
-            <hr class="my-4">
-            <a href="latitude_vs_temperature.html"><img src="Resources/Images/latitude_vs_max_temp.png" alt="Latitude vs. Max Temp" class="float-left" style="padding-bottom:15px;" width="50%"></a>
-            <a href="latitude_vs_humidity.html"><img src="Resources/Images/latitude_vs_humidity.png" alt="Latitude vs. Humidity" class="float-right" style="padding-bottom:15px;" width="50%"></a>
-            <a href="latitude_vs_cloudiness.html"><img src="Resources/Images/latitude_vs_cloudiness.png" alt="Latitude vs. Cloudiness" class="float-left" width="50%"></a>
-            <a href="latitude_vs_wind_speed.html"><img src="Resources/Images/latitude_vs_wind_speed.png" alt="Latitude vs. Wind Speed" class="float-right" width="50%" ></a>
+        <section class="col-md-5">
+            <div class="card">
+                <div class="card-body">
+                    <h5 style="color:#2c3e50;">Visualizations</h5>
+                    <hr class="my-4">
+                    <a href="latitude_vs_temperature.html"><img src="Resources/Images/latitude_vs_max_temp.png" alt="Latitude vs. Max Temp" class="float-left" style="padding-bottom:15px;" width="50%"></a>
+                    <a href="latitude_vs_humidity.html"><img src="Resources/Images/latitude_vs_humidity.png" alt="Latitude vs. Humidity" class="float-right" style="padding-bottom:15px;" width="50%"></a>
+                    <a href="latitude_vs_cloudiness.html"><img src="Resources/Images/latitude_vs_cloudiness.png" alt="Latitude vs. Cloudiness" class="float-left" width="50%"></a>
+                    <a href="latitude_vs_wind_speed.html"><img src="Resources/Images/latitude_vs_wind_speed.png" alt="Latitude vs. Wind Speed" class="float-right" width="50%" ></a>
+                </div>
+            </div>
         </section>
       </section>
     </div>
