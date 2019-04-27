@@ -1,9 +1,9 @@
 # Homework-11
 Homework 11 - Web Visualization Dashboard (Latitude)
-
+  
 **Description**  
 Latitude analysis dashboard using responsive layouts and html/css.  
-
+  
 **Contents**
 * Resources/  
   * Images/  
