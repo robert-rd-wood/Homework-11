@@ -4,7 +4,7 @@ Homework 11 - Web Visualization Dashboard (Latitude)
 **Description**  
 Latitude analysis dashboard using responsive layouts and html/css.  
 
-**Contents**  
+**Contents**
 * Resources/  
   * Images/  
     * latitude_vs_cloudiness.png  
